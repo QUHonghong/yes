@@ -1,6 +1,3 @@
-# yes
-project and learning
-
 #include <iostream>
  
 // 函数声明 
@@ -24,4 +21,3 @@ void func( void )
     std::cout << "变量 i 为 " << i ;
     std::cout << " , 变量 count 为 " << count << std::endl;
 }
-

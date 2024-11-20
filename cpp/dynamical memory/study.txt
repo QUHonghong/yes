@@ -1,0 +1,15 @@
+一数据类型
+1.new data-type
+2.double* pvalue = NULL;
+pvalue=new double;
+3.double* pvalue = NULL;
+if(!(pvalue=new double)){
+    cout<<"Error: out of memory." <<endl;
+    exit(1);
+}
+delete pvalue;
+二：数组
+1.char* pvalue = NULL;
+pvalue = new char[20];
+delete [] pvalue;
+三：对象
